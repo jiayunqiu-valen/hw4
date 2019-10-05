@@ -16,12 +16,19 @@ the last one shows x will increase 10 each time when the loop is running
 
 How many times does the loop body run each frame, once the x and y arrays are full?
 
+ for (var i = 0; i < x.length; i = i + 10)
+ 
+ as x. length means all the elements in arary will run
 
 
 What are two ways of increasing the spacing between rings?
 
+one way is to increase the number of (i = i + 10)
 
 
 How can you make the ellipse trail longer?
 
+change the numbers in () of these two, the bigger amount, the longer trail  
+x = x.slice(-200); 
+y = y.slice(-200); 
 
